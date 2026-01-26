@@ -12,10 +12,10 @@ client.on('message', msg => {
       
     }
     else if (msg.content === 'ping') {
-      msg.reply('pong');
+      msg.reply('Pong!');
     }
     else {
-        
+        msg.reply(msg.content);
     }
 });
 
